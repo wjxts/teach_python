@@ -27,7 +27,7 @@ list comprehension (map, filter, reduce)(✅) (各种判断质数) (day4, 2.5h)
 * 类(对象)(✅)、初始化(✅)、继承(✅)
   * 类/对象(模版和实例化) 成员变量(属性)、成员函数(方法)(✅)
   * 静态变量、方法(✅)
-* 抽象基类(✅)、公有/保护(弱私有)/私有(强私有)(✅)(day5, 2h) chessboard习题
+* 抽象基类(✅)、公有/保护(弱私有)/私有(强私有)(✅)(day5, 2h) chessboard习题(构建engine用于后续的桌面应用和web应用)
 * 内置函数 (dir, hasattr, isinstance, getattr, setattr)(✅)
 * 魔法方法  (emulation, duck type) [B站非常好的讲魔法方法的系列视频][magic_method_bili]
   * __init__(✅)
@@ -62,6 +62,8 @@ import package (module, package )
 (做leetcode题目)
 
 iterable & iterator / generator(yield关键字) / for loop
+[python doc][https://docs.python.org/3/glossary.html#term-iterable]
+
 
 多进程/多线程 
 * 数据并行处理
