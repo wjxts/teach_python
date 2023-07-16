@@ -3,6 +3,7 @@ file = "output.txt"
 # file = r"D:\ysz\files\123.txt"
 # with open(file, 'r') as f:
 #     s = f.read()
+#     # lines = f.readlines()
 # print(s)
 # file_out = "out.txt"
 # with open(file_out, 'w') as f:
@@ -51,6 +52,9 @@ file = "output.txt"
 #         return inner_func
 #     return timer
 
+#@timer
+#func=timer(func)
+
 # @timer
 # @named_timer("fengtai")
 # def loop():
@@ -88,3 +92,10 @@ file = "output.txt"
 # json.dump(d, open(file, 'w'), indent=2)
 # td = json.load(open(file, 'r'))
 # print(td)
+
+# from util import fun 
+# import util
+# util.fun(2)
+from new_math.util import fun as f
+f(2)
+
