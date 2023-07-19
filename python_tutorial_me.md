@@ -54,20 +54,25 @@ file io (✅)
 * contextmanager enter/exit (✅)
 * json (✅)(day6, 2.5h)
 
-import package (module, package )
-* absolute import file 表示当前运行python指令的路径下 file
-* relative import .file .表示所在文件的相对路径(实际执行时会把相对路径转为绝对路径)
+每次先git pull 
+最后git push
+
+import package (module, package)(✅)
+* absolute import file 表示当前运行python指令的路径下 file(✅)
+* relative import .file .表示所在文件的相对路径(实际执行时会把相对路径转为绝对路径)(✅)
 
 
 (做leetcode题目)
 
-iterable & iterator / generator(yield关键字) / for loop
+iterable & iterator / generator(yield关键字) / for loop(✅)
 [python doc][https://docs.python.org/3/glossary.html#term-iterable]
 
 
-多进程/多线程 
-* 数据并行处理
-* 与函数式结合 (list comprehension的并行版)
+多进程/多线程 (✅)
+* 数据并行处理 (✅)
+* 与函数式结合 (list comprehension的并行版) (✅)(day7, 2h)
+
+note: 再补充一下Process, map, apply (windows运行有bug)
 
 正则表达式 re
 
@@ -112,7 +117,11 @@ linux基本指令(一切靠点鼠标的操作都可以用命令行实现)
     * 指令集 (例如x86)
 2. `面向过程的编程`、``面向对象的编程``、```函数式编程```
 
-写程序的基本: 语法+算法
+写程序的基本: 语法+算法, 
+* 命名规范
+* 书写格式整洁清晰
+* 会看报错来debug
+
 写软件: 
 
 [面向对象][website]的开发，除了**基本的东西**用来实现*功能*，主要是根据***功能***设计`抽象`
