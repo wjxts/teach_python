@@ -69,15 +69,33 @@ iterable & iterator / generator(yield关键字) / for loop(✅)
 
 
 多进程/多线程 (✅)
-* 数据并行处理 (✅)
-* 与函数式结合 (list comprehension的并行版) (✅)(day7, 2h)
+* 数据并行处理 apply_async(✅) 
+* 与函数式结合 (list comprehension的并行版) imap (✅)(day7, 2h) 
 
 note: 再补充一下Process, map, apply (windows运行有bug)
+* map, imap, map_async
+* apply, apply_async  (加async的是不block主程序的的, 不加是阻塞的,pool.close()+pool.join()可以等待async的任务运行完)
+* p = mp.Process(target=task, args=iterable) iterable一般就是tuple
+p.start()
 
-正则表达式 re
+正则表达式 re (详见python summary / advance_knowledge / 7)
+* pattern = re.compile(r'pattern')
+* result = pattern.findall(pattern) 可以通过()group来获取匹配后需要的部分
+[正则表达式中的特殊符号含义][https://www.w3schools.com/python/python_regex.asp]
+爬虫解析网页可以直接用beautifulsoup4, 内部已经用正则表达式实现好了常见匹配和文本提取
 
 路径相关的package
-io / glob / pathlib (非常方便, 可以替代前两个)
+os / glob / pathlib (非常方便, 可以替代前两个)
+[glob介绍][https://blog.csdn.net/qq_42681787/article/details/127789869]
+[非常好的pathlib总结，可以当作手册查看][https://zhuanlan.zhihu.com/p/475661402]
+
+
+os.system(cmd) / os.popen(cmd) 在命令行运行指令
+
+sys
+* sys.argv 用于获取命令行参数
+* sys.path.append(path) 向sys.path中添加path, 用于import package
+
 
 important packages (that's why python dominates data science programming)
 * numpy 
@@ -104,7 +122,8 @@ web应用程序开发框架: django
 linux基本指令(一切靠点鼠标的操作都可以用命令行实现)
 > 命令行trick: 上翻/下翻, tab补全, ctrl+a/e移动到开头/结尾    
 > 查看操作(ls, vim, cat, head, tail, more)   
-> 文件操作(mkdir, touch, mv, cp, vim), 查找操作(find, grep)   
+> 文件操作(mkdir, touch, mv, cp, vim), 查找操作(find, grep)  
+> 文件权限(chmod, chown, chgrp) 会看含义 
 > 文本处理(字符流处理) sed (stream editor)    
 > 管道操作 |   
 > 重定向 >, <, &>     
