@@ -96,23 +96,22 @@ sys
 * sys.argv 用于获取命令行参数
 * sys.path.append(path) 向sys.path中添加path, 用于import package
 
-
-important packages (that's why python dominates data science programming)
-* numpy 
-* pandas
-* matplotlib (seaborn)
+前端
+* html
+* css
+* javescript
 
 爬虫
 * 根据url获取网页内容
 * 解析网页内容
 * 获取新的url继续爬取
 
-前端
-* html
-* css
-* javescript
+important packages (that's why python dominates data science programming)
+* numpy 
+* pandas
+* matplotlib (seaborn)
 
-数据科学 (kaggle竞赛)
+数据科学/机器学习 (kaggle竞赛)
 * sklearn
 * pytorch
 * tensorflow
