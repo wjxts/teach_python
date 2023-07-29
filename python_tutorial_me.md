@@ -72,16 +72,18 @@ iterable & iterator / generator(yield关键字) / for loop(✅)
 * 数据并行处理 apply_async(✅) 
 * 与函数式结合 (list comprehension的并行版) imap (✅)(day7, 2h) 
 
-note: 再补充一下Process, map, apply (windows运行有bug)
-* map, imap, map_async
-* apply, apply_async  (加async的是不block主程序的的, 不加是阻塞的,pool.close()+pool.join()可以等待async的任务运行完)
-* p = mp.Process(target=task, args=iterable) iterable一般就是tuple
-p.start()
+note: 再补充一下Process, map, apply (windows运行有bug, 解决了)
+* map, imap, map_async (✅)
+* apply, apply_async  (加async的是不block主程序的的, 不加是阻塞的,pool.close()+pool. join()可以等待async的任务运行完) (✅)
+* p = mp.Process(target=task, args=iterable) iterable一般就是tuple (✅)
+p.start() p.join() (✅)
+
+**如何获取返回值没讲清**
 
 正则表达式 re (详见python summary / advance_knowledge / 7)
-* pattern = re.compile(r'pattern')
-* result = pattern.findall(pattern) 可以通过()group来获取匹配后需要的部分
-[正则表达式中的特殊符号含义][https://www.w3schools.com/python/python_regex.asp]
+* pattern = re.compile(r'pattern') (✅)
+* result = pattern.findall(content) 可以通过()group来获取匹配后需要的部分 (✅)(day8, 3.5h) 
+[正则表达式中的特殊符号含义][https://www.w3schools.com/python/python_regex.asp] 
 爬虫解析网页可以直接用beautifulsoup4, 内部已经用正则表达式实现好了常见匹配和文本提取
 
 路径相关的package
