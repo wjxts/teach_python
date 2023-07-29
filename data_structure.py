@@ -70,12 +70,12 @@ d.update(dd)
 # from collections import OrderedDict
 
 # 遍历
-# for k, v in d.items():
-#     print(k, v)
+for k, v in d.items():
+    print(k, v)
 
-# for item in d.items():
-#     k, v = item
-#     print(item, k, v)
+for item in d.items():
+    k, v = item
+    print(item, k, v)
 
 # keys = list(d.keys())
 # print(keys)
@@ -154,11 +154,11 @@ d.update(dd)
 # print(a)
 
 # 可用于列表或元组去重
-# a = [1, 2, 1, 3, 2, 1]
-# b = set(a)
-# print(b)
-# a = list(b)
-# print(a)
+a = [1, 2, 1, 3, 2, 1]
+b = set(a)
+print(b)
+a = list(b)
+print(a)
 
 # a = {1, 2, 3, 4}
 # b = {3, 4, 5, 6}
