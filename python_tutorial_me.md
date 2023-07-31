@@ -82,7 +82,7 @@ p.start() p.join() (✅)
 
 正则表达式 re (详见python summary / advance_knowledge / 7)
 * pattern = re.compile(r'pattern') (✅)
-* result = pattern.findall(content) 可以通过()group来获取匹配后需要的部分 (✅)(day8, 3.5h) 
+* result = pattern.findall(content) 可以通过()group来获取匹配后需要的部分 (✅)(day8, 3h)
 [正则表达式中的特殊符号含义][https://www.w3schools.com/python/python_regex.asp] 
 爬虫解析网页可以直接用beautifulsoup4, 内部已经用正则表达式实现好了常见匹配和文本提取
 
