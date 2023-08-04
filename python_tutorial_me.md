@@ -117,7 +117,7 @@ important basic packages for data analysis / visualization (that's why python do
 * pytorch
 * tensorflow (暂时不熟悉)
 
-web应用程序开发框架: django / flask (暂时不熟悉)
+web应用程序开发框架: django / flask (暂时不熟悉) (postman做测试, sqlite viewer查看数据库)
 
 linux基本指令(一切靠点鼠标的操作都可以用命令行实现)
 > 命令行trick: 上翻/下翻, tab补全, ctrl+a/e移动到开头/结尾    

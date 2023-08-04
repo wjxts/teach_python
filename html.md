@@ -5,7 +5,8 @@
 * HTML是创建网页的标准标记语言, 用于描述网页的结构和语义
 
 
-install *html preview* in vscode extension for previewing .html file.   
+install *html preview* / *live server* in vscode extension for previewing .html file.   
+shift+option+f to format html file in vscode
 
 elements: <tag>....</tag>
 attributes: inside the start tag <tag name1="value1" name2="valu22">
