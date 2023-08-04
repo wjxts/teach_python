@@ -91,34 +91,33 @@ os / glob / pathlib (非常方便, 可以替代前两个)
 [glob介绍][https://blog.csdn.net/qq_42681787/article/details/127789869]
 [非常好的pathlib总结，可以当作手册查看][https://zhuanlan.zhihu.com/p/475661402]
 
-
-os.system(cmd) / os.popen(cmd) 在命令行运行指令
+os.system(cmd) / os.popen(cmd).read() 在命令行运行指令(并获取标准输出)
 
 sys
 * sys.argv 用于获取命令行参数
 * sys.path.append(path) 向sys.path中添加path, 用于import package
 
-前端
+important basic packages for data analysis / visualization(that's why python dominates data science programming)
+* numpy 
+* pandas 
+* matplotlib (seaborn)
+
+前端 (暂时不熟悉)
 * html
 * css
-* javescript
+* javascript
 
-爬虫
+爬虫 (暂时不熟悉)
 * 根据url获取网页内容
 * 解析网页内容
-* 获取新的url继续爬取
-
-important packages (that's why python dominates data science programming)
-* numpy 
-* pandas
-* matplotlib (seaborn)
+* 获取新的url继续爬取 (需要先了解网站结构)
 
 数据科学/机器学习 (kaggle竞赛)
 * sklearn
 * pytorch
-* tensorflow
+* tensorflow (暂时不熟悉)
 
-web应用程序开发框架: django
+web应用程序开发框架: django / flask (暂时不熟悉)
 
 linux基本指令(一切靠点鼠标的操作都可以用命令行实现)
 > 命令行trick: 上翻/下翻, tab补全, ctrl+a/e移动到开头/结尾    
@@ -149,3 +148,5 @@ linux基本指令(一切靠点鼠标的操作都可以用命令行实现)
 [website]: https://baike.baidu.com/item/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/2262089?fr=aladdin
 [magic_method_bili]: https://www.bilibili.com/video/BV1b84y1e7hG/?spm_id_from=333.788&vd_source=2e11bf5777ff070409e5bbf74862f555
 <u>***underline***</u>
+
+不熟悉包括没学习过，或学习过但没怎么用过

@@ -7,5 +7,13 @@
 
 install *html preview* in vscode extension for previewing .html file.   
 
+elements: <tag>....</tag>
+attributes: inside the start tag <tag name1="value1" name2="valu22">
+
+<h5 style="color:red;">markdown support html</h5>
+
+感觉可以通过看别人设计的很好的网页来学习, 就像使用其他人的ppt模版一样   
+[html5up][https://html5up.net/]
 
 
+A URL is another word for a web address
