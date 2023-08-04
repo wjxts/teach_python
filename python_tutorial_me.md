@@ -97,7 +97,7 @@ sys
 * sys.argv 用于获取命令行参数
 * sys.path.append(path) 向sys.path中添加path, 用于import package
 
-important basic packages for data analysis / visualization(that's why python dominates data science programming)
+important basic packages for data analysis / visualization (that's why python dominates data science programming)
 * numpy 
 * pandas 
 * matplotlib (seaborn)
