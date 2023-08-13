@@ -74,7 +74,7 @@ iterable & iterator / generator(yield关键字) / for loop(✅)
 
 note: 再补充一下Process, map, apply (windows运行有bug, 解决了)
 * map, imap, map_async (✅)
-* apply, apply_async  (加async的是不block主程序的的, 不加是阻塞的,pool.close()+pool. join()可以等待async的任务运行完) (✅)
+* apply, apply_async  (加async的是不block主程序的的, 不加是阻塞的,pool.close()+pool.join()可以等待async的任务运行完) (✅)
 * p = mp.Process(target=task, args=iterable) iterable一般就是tuple (✅)
 p.start() p.join() (✅)
 
@@ -100,7 +100,7 @@ sys
 important basic packages for data analysis / visualization (that's why python dominates data science programming)
 * numpy 
 * pandas 
-* matplotlib (seaborn)
+* matplotlib (seaborn) [tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials), [gallery](https://matplotlib.org/stable/gallery/)
 
 前端 (暂时不熟悉)
 * html
@@ -150,3 +150,5 @@ linux基本指令(一切靠点鼠标的操作都可以用命令行实现)
 <u>***underline***</u>
 
 不熟悉包括没学习过，或学习过但没怎么用过
+
+了解计算机的各种编程语言和开发技术等工具，然后根据需求去使用工具来实现功能，来创造价值. 看到别人对工具的需求然后造铲子，也可以创造价值.
