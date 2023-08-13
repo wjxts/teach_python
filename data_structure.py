@@ -70,12 +70,12 @@ d.update(dd)
 # from collections import OrderedDict
 
 # 遍历
-for k, v in d.items():
-    print(k, v)
+# for k, v in d.items():
+#     print(k, v)
 
-for item in d.items():
-    k, v = item
-    print(item, k, v)
+# for item in d.items():
+#     k, v = item
+#     print(item, k, v)
 
 # keys = list(d.keys())
 # print(keys)

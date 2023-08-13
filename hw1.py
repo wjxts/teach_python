@@ -7,3 +7,4 @@ def sum_1(n):
 
 output = sum_1(5)
 print(output)
+exit(2)
