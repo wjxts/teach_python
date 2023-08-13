@@ -97,6 +97,8 @@ sys
 * sys.argv 用于获取命令行参数
 * sys.path.append(path) 向sys.path中添加path, 用于import package
 
+argparse (命令行参数解析 CLI)
+
 important basic packages for data analysis / visualization (that's why python dominates data science programming)
 * numpy 
 * pandas 
