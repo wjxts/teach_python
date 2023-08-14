@@ -104,7 +104,7 @@ important basic packages for data analysis / visualization (that's why python do
 * pandas 
 * matplotlib (seaborn) [tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials), [gallery](https://matplotlib.org/stable/gallery/)
 
-前端 (暂时不熟悉)
+前端 (server) (暂时不熟悉)
 * html
 * css
 * javascript
@@ -119,7 +119,7 @@ important basic packages for data analysis / visualization (that's why python do
 * pytorch
 * tensorflow (暂时不熟悉)
 
-web应用程序开发框架: django / flask (暂时不熟悉) (postman做测试, sqlite viewer查看数据库)
+web应用程序开发框架(后端 server): django / flask (暂时不熟悉) (postman做测试, sqlite viewer查看数据库)
 
 linux基本指令(一切靠点鼠标的操作都可以用命令行实现)
 > 命令行trick: 上翻/下翻, tab补全, ctrl+a/e移动到开头/结尾    
