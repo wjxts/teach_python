@@ -80,3 +80,5 @@ maybe need
 
 代码补全见gpt, coc.nvim node.js使用conda安装  
 coc.nvim初步使起来不太习惯
+外部语法检查器(linter) [如果报错找不到](https://codeleading.com/article/49454089808/)
+:CocCommand python.setInterpreter
