@@ -106,7 +106,7 @@ sys
 
 argparse (命令行参数解析 CLI) (✅) (day9, 2h)
 
-type hint [知乎介绍](https://zhuanlan.zhihu.com/p/637347770)
+type hint [知乎介绍](https://zhuanlan.zhihu.com/p/637347770), [官方文档](https://peps.python.org/pep-0484/) 程序运行并不会强制要求，是给静态类型检查器看的，然后提示代码中的类型错误
 常见类型:
 * int, str, float, bool
 * List[int]
