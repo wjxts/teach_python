@@ -60,7 +60,14 @@ file io (✅)
 import package (module, package)(✅)
 * absolute import file 表示当前运行python指令的路径下 file(✅)
 * relative import .file .表示所在文件的相对路径(实际执行时会把相对路径转为绝对路径)(✅)
-
+* 多个import太长可以用括号括起来，多行书写
+``` python
+from typing import (
+    Generic,
+    Iterable,
+    Iterator,
+)
+```
 
 (做leetcode题目)
 
@@ -86,18 +93,35 @@ p.start() p.join() (✅)
 [正则表达式中的特殊符号含义][https://www.w3schools.com/python/python_regex.asp] 
 爬虫解析网页可以直接用beautifulsoup4, 内部已经用正则表达式实现好了常见匹配和文本提取
 
-路径相关的package
+路径相关的package (✅)
 os / glob / pathlib (非常方便, 可以替代前两个)
 [glob介绍][https://blog.csdn.net/qq_42681787/article/details/127789869]
 [非常好的pathlib总结，可以当作手册查看][https://zhuanlan.zhihu.com/p/475661402]
 
-os.system(cmd) / os.popen(cmd).read() 在命令行运行指令(并获取标准输出)
+os.system(cmd) / os.popen(cmd).read() 在命令行运行指令(并获取标准输出) (✅)
 
 sys
 * sys.argv 用于获取命令行参数
-* sys.path.append(path) 向sys.path中添加path, 用于import package
+* sys.path.append(path) 向sys.path中添加path, 用于import package (✅)
 
-argparse (命令行参数解析 CLI)
+argparse (命令行参数解析 CLI) (✅) (day9, 2h)
+
+type hint [知乎介绍](https://zhuanlan.zhihu.com/p/637347770)
+常见类型:
+* int, str, float, bool
+* List[int]
+* Optional[int]
+* Union[int, str]
+* Any
+* Tuple[int, str]
+* Sequence[int]
+* Callable[[int, int], int]
+* Literal[1, 2, 3]
+* Newtype('NewTypeName', int) # 主要是给静态类型检查器看的 [介绍](http://www.manongjc.com/detail/60-ncokloueevpddvk.html)
+* Generic(泛型) # 好像是和TypeVar连用, 用于定义泛型类, 表示某一类变量，要求类的内部一致 [介绍](https://stackoverflow.com/questions/58755948/what-is-the-difference-between-typevar-and-newtype)
+  
+super and MRO (method resolution order)
+
 
 important basic packages for data analysis / visualization (that's why python dominates data science programming)
 * numpy 
