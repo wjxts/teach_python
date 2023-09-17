@@ -122,10 +122,22 @@ type hint [知乎介绍](https://zhuanlan.zhihu.com/p/637347770), [官方文档]
   
 super and MRO (method resolution order)  (✅)  (day10, 50min)
 
+梳理基本的数据结构和操作及其复杂度list/dict/set/str
+
 important basic packages for data analysis / visualization (that's why python dominates data science programming)
 * numpy 
 * pandas 
-* matplotlib (seaborn) [tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials), [gallery](https://matplotlib.org/stable/gallery/)
+* matplotlib (seaborn) [tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials), [gallery](https://matplotlib.org/stable/gallery/), [seaborn gallery](https://seaborn.pydata.org/examples/index.html)
+
+作图基本原理:
+点/线图，画图的style(点型/线型)
+坐标轴的style(刻度/刻度标签)、标题、图例
+文字的style(字体/大小/颜色)
+选色、配色
+额外添加文字/箭头   # 添加箭头也许在ppt里比较方便
+
+在哪、放什么(内容、样式)、怎么放
+
 
 前端 (server) (暂时不熟悉)
 * html
