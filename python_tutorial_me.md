@@ -129,7 +129,6 @@ super and MRO (method resolution order)  (✅)  (day10, 50min)
 
 做完题后总结一下用到的数据结构、接口和算法思想
 
-
 important basic packages for data analysis / visualization (that's why python dominates data science programming)
 * numpy 
 * pandas 
