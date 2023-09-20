@@ -123,6 +123,12 @@ type hint [知乎介绍](https://zhuanlan.zhihu.com/p/637347770), [官方文档]
 super and MRO (method resolution order)  (✅)  (day10, 50min)
 
 梳理基本的数据结构和操作及其复杂度list/dict/set/str
+进制转换bin()/oct()/hex()等
+字符和ascii码的转换ord()/chr() ord是unicode ordinal的缩写,即编号; chr是character的缩写
+[bisect库](https://blog.csdn.net/weixin_43955170/article/details/119085829)
+
+做完题后总结一下用到的数据结构、接口和算法思想
+
 
 important basic packages for data analysis / visualization (that's why python dominates data science programming)
 * numpy 
