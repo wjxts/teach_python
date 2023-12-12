@@ -1,0 +1,37 @@
+str
+
+定义字符串：
+a = ""
+b = "星期一" 或者 b = '星期一' #单引号和双引号用处相同
+
+基本操作：
+len(a) #返回字符串a的长度
+a[::-1] #A的逆序字符串，常用于与回文串相关的问题
+a[1:4] #取1,2,3上的字符
+a[3] #取位置3上的字符
+a + b #拼接字符串a，b
+a * n #重复字符串n次
+
+转换成list：
+b = list(a)
+
+再转化成str:
+c = ''.join(b)
+
+其他函数:
+去掉两侧的空格和回车：
+a.strip()  #(rstrip只去掉右侧的,lstrip只去掉左侧的 )
+
+a.upper()  #全变成大写
+a.isupper() #判断是否都是大写
+a.lower()  #全变成小写
+a.islower() #判断是否都为小写
+
+a.isdigit()  #检查是否全是数字（不包括符号）
+a.find(sub_str)   #在a里找sub_str，如果不存在返回-1，如果存在则返回sub_str在a中第一次出现的下标   o(m + n),m = len(a), n = len(sub_str) KMP算法 
+
+bin(x)  #获得整数的二进制字符串
+ord('a') #将字符串转化为ASCII值
+chr(x)  #将数值转化为字符
+chr(ord('a')) # 不变
+[chr(ord('a')+i) for i in range(26)] # 生成a-z

@@ -1,0 +1,23 @@
+dict        注意考虑操作的时间复杂度 O(f(n))
+#定义一个字典
+#添加一对key - value
+#更新某个key的value
+#获取某个存在key的value
+#鲁棒地获取某个key的value（考虑key不存在的情况）
+#去除某个key - value
+#获取key的列表
+#获取value的列表
+#遍历这个字典，打印key - value
+#用一个dict去更新另一个dict
+#合并两个dict成为一个新dict（假设没有重复的key）
+#判断某个key是不是在字典里          O(1)
+
+#从列表转化为字典
+#用dict comprehension生成字典
+
+Counter
+from collections import Counter     #如何import Counter
+#初始化Counter
+#更新Counter，增加以及删减
+#获取数量最多的元素
+#根据元素的数量对元素由小到大排序
