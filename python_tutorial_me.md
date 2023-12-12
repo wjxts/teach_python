@@ -107,7 +107,7 @@ sys
 argparse (命令行参数解析 CLI) (✅) (day9, 2h)
 
 type hint [知乎介绍](https://zhuanlan.zhihu.com/p/637347770), [官方文档](https://peps.python.org/pep-0484/) 程序运行并不会强制要求，是给静态类型检查器看的，然后提示代码中的类型错误
-常见类型:
+常见类型:  (✅) 
 * int, str, float, bool
 * List[int]
 * Optional[int]
@@ -120,13 +120,29 @@ type hint [知乎介绍](https://zhuanlan.zhihu.com/p/637347770), [官方文档]
 * Newtype('NewTypeName', int) # 主要是给静态类型检查器看的 [介绍](http://www.manongjc.com/detail/60-ncokloueevpddvk.html)
 * Generic(泛型) # 好像是和TypeVar连用, 用于定义泛型类, 表示某一类变量，要求类的内部一致 [介绍](https://stackoverflow.com/questions/58755948/what-is-the-difference-between-typevar-and-newtype)
   
-super and MRO (method resolution order)
+super and MRO (method resolution order)  (✅)  (day10, 50min)
 
+梳理基本的数据结构和操作及其复杂度list/dict/set/str
+进制转换bin()/oct()/hex()等
+字符和ascii码的转换ord()/chr() ord是unicode ordinal的缩写,即编号; chr是character的缩写
+[bisect库](https://blog.csdn.net/weixin_43955170/article/details/119085829)
+
+做完题后总结一下用到的数据结构、接口和算法思想
 
 important basic packages for data analysis / visualization (that's why python dominates data science programming)
 * numpy 
 * pandas 
-* matplotlib (seaborn) [tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials), [gallery](https://matplotlib.org/stable/gallery/)
+* matplotlib (seaborn) [tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials), [gallery](https://matplotlib.org/stable/gallery/), [seaborn tutorial](https://seaborn.pydata.org/tutorial/distributions.html), [seaborn gallery](https://seaborn.pydata.org/examples/index.html)
+
+作图基本原理:
+点/线图，画图的style(点型/线型)
+坐标轴的style(刻度/刻度标签)、标题、图例
+文字的style(字体/大小/颜色)
+选色、配色
+额外添加文字/箭头   # 添加箭头也许在ppt里比较方便
+
+在哪、放什么(内容、样式)、怎么放
+
 
 前端 (server) (暂时不熟悉)
 * html
