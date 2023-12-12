@@ -132,7 +132,7 @@ super and MRO (method resolution order)  (✅)  (day10, 50min)
 important basic packages for data analysis / visualization (that's why python dominates data science programming)
 * numpy 
 * pandas 
-* matplotlib (seaborn) [tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials), [gallery](https://matplotlib.org/stable/gallery/), [seaborn gallery](https://seaborn.pydata.org/examples/index.html)
+* matplotlib (seaborn) [tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials), [gallery](https://matplotlib.org/stable/gallery/), [seaborn tutorial](https://seaborn.pydata.org/tutorial/distributions.html), [seaborn gallery](https://seaborn.pydata.org/examples/index.html)
 
 作图基本原理:
 点/线图，画图的style(点型/线型)
