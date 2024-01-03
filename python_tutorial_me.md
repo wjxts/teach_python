@@ -133,7 +133,7 @@ important basic packages for data analysis / visualization (that's why python do
 * numpy 
 * pandas 
 * matplotlib (seaborn) [tutorial](https://matplotlib.org/stable/tutorials/index.html#tutorials), [gallery](https://matplotlib.org/stable/gallery/), [seaborn tutorial](https://seaborn.pydata.org/tutorial/distributions.html), [seaborn gallery](https://seaborn.pydata.org/examples/index.html)
-
+[python plot gallery](https://python-graph-gallery.com/)
 作图基本原理:
 点/线图，画图的style(点型/线型)
 坐标轴的style(刻度/刻度标签)、标题、图例
@@ -143,6 +143,7 @@ important basic packages for data analysis / visualization (that's why python do
 
 在哪、放什么(内容、样式)、怎么放
 
+dataframe: 表格型数据结构
 
 前端 (server) (暂时不熟悉)
 * html
@@ -194,6 +195,5 @@ linux基本指令(一切靠点鼠标的操作都可以用命令行实现)
 不熟悉包括没学习过，或学习过但没怎么用过
 
 了解计算机的各种编程语言和开发技术等工具，然后根据需求去使用工具来实现功能，来创造价值. 看到别人对工具的需求然后造铲子，也可以创造价值.
-
 
 
