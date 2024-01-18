@@ -143,7 +143,7 @@ important basic packages for data analysis / visualization (that's why python do
 
 在哪、放什么(内容、样式)、怎么放
 
-dataframe: 表格型数据结构
+dataframe & series: 表格型数据结构, 底层数据结构采用NumPy来实现
 
 前端 (server) (暂时不熟悉)
 * html
@@ -173,6 +173,14 @@ linux基本指令(一切靠点鼠标的操作都可以用命令行实现)
 > top, htop, ps (aux), kill, nvidia-smi -l 1   
 > ifconfig, ping, ssh, scp, wget     
 > tmux   
+
+grep -r "keyword" folder_path 递归查找folder_path目录下的文件中包含keyword的行
+find folder_path -name "keyword" 递归查找folder_path目录下的文件名包含keyword的文件和文件夹
+grep和find路径和模式匹配的顺序是反的
+du -sh file/folder s表示summarize, h表示human readable, 以M为单位
+top -p pid 查看pid进程的资源占用情况
+top -u username 查看username用户的资源占用情况
+按q退出top
 
 1. 高级语言、汇编语言、机器码
     * 编译器
