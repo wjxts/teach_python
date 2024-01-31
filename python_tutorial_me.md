@@ -159,6 +159,7 @@ dataframe & series: 表格型数据结构, 底层数据结构采用NumPy来实�
 * sklearn
 * pytorch
 * tensorflow (暂时不熟悉)
+会使用别人开发的包和仓库（经常用到）, 会阅读文档, 会查看源码
 
 web应用程序开发框架(后端 server): django / flask (暂时不熟悉) (postman做测试, sqlite viewer查看数据库)
 
@@ -179,7 +180,7 @@ find folder_path -name "keyword" 递归查找folder_path目录下的文件名包
 grep和find路径和模式匹配的顺序是反的
 du -sh file/folder s表示summarize, h表示human readable, 以M为单位
 top -p pid 查看pid进程的资源占用情况
-top -u username 查看username用户的资源占用情况
+top -u username 查看user`name用户的资源占用情况
 按q退出top
 
 1. 高级语言、汇编语言、机器码
@@ -187,7 +188,7 @@ top -u username 查看username用户的资源占用情况
     * 指令集 (例如x86)
 2. `面向过程的编程`、``面向对象的编程``、```函数式编程```
 
-写程序的基本: 语法+算法, 
+写程序的基本: 语法+算法
 * 命名规范
 * 书写格式整洁清晰
 * 会看报错来debug
@@ -203,5 +204,6 @@ top -u username 查看username用户的资源占用情况
 不熟悉包括没学习过，或学习过但没怎么用过
 
 了解计算机的各种编程语言和开发技术等工具，然后根据需求去使用工具来实现功能，来创造价值. 看到别人对工具的需求然后造铲子，也可以创造价值.
+
 
 

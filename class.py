@@ -388,3 +388,4 @@ soldier1 = Soldier(10, 20)
 setattr(soldier1, "magic", 50)
 # print(soldier1.magic)
 # print(soldier1.power)
+
