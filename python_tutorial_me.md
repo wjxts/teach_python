@@ -3,6 +3,7 @@
 1.5 hour per day
 
 数据类型和运算(int, float, bool, str; + ,-, *, /, **, //, %)(✅)
+*data_type_and_operation.py*
 
 循序语句(✅)(day 1)、判断语句(✅)、循环语句(✅)   
 
@@ -19,6 +20,7 @@ try except语句(✅)
 - tuple(✅)
 - set(✅)
 构建、方法、转化、遍历   
+*data_structure.py*
 
 list comprehension (map, filter, reduce)(✅) (各种判断质数) (day4, 2.5h)
 8皇后问题
@@ -27,7 +29,7 @@ list comprehension (map, filter, reduce)(✅) (各种判断质数) (day4, 2.5h)
 * 类(对象)(✅)、初始化(✅)、继承(✅)
   * 类/对象(模版和实例化) 成员变量(属性)、成员函数(方法)(✅)
   * 静态变量、方法(✅)
-* 抽象基类(✅)、公有/保护(弱私有)/私有(强私有)(✅)(day5, 2h) chessboard习题(构建engine用于后续的桌面应用和web应用)
+* 抽象基类(✅)、公有/保护(弱私有)/私有(强私有)(✅)(day5, 2h) chessboard习题(构建engine用于后续的桌面应用和web应用, LY compete!)
 * 内置函数 (dir, hasattr, isinstance, getattr, setattr)(✅)
 * 魔法方法  (emulation, duck type) [B站非常好的讲魔法方法的系列视频][magic_method_bili]
   * __init__(✅)
@@ -39,6 +41,8 @@ list comprehension (map, filter, reduce)(✅) (各种判断质数) (day4, 2.5h)
   * __len__, __contains__ (为了使用len, in)(✅)
   * __getitem__ this[key], __index__ other[this](as key)(✅)
   * context manager (with ... as ...语句) __enter__, __exit__ (计时)(✅)
+
+dataclass类: 当使用类来保存数据的时候，可以使用这个类
 
 先从一些轻松的开始 
 

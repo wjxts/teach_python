@@ -1,7 +1,9 @@
+数组/栈
+
 创建列表:
 a = []
-b = [1 ,10 ,8]
-c =[“hello”,”world”]
+b = [1, 10, 8]
+c =[“hello”, ”world”]
 
 修改列表元素:
 b[0] = 5,  O(1)
@@ -42,3 +44,6 @@ range（a ,b ,step）,从[a,b),每step个数取一次，默认step=1，a=0，ste
 求列表的最大值和最小值：
 max_num = max(b),    O(n)
 min_num = min(b),    O(n)
+
+
+list.count(item): 统计item在list中出现的次数
