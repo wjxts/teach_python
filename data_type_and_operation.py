@@ -20,6 +20,7 @@ s2 = str(a1)
 # float/int +, -, *, /, **
 # 1.5e2
 # int //, %  a = (a//b)*b+a%b
+# int &, |, ^
 
 # bool and, or, not, ==, !=, >, <, >=, <=
 
