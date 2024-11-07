@@ -5,9 +5,11 @@
 数据类型和运算(int, float, bool, str; + ,-, *, /, **, //, %, &, |, ^)(✅)
 *data_type_and_operation.py*
 
-循序语句(✅)(day 1)、判断语句(✅)、循环语句(✅)   
+顺序语句(✅)(day 1)、判断语句(✅)、循环语句(✅)   
+*judge_and_loop.py*
 
 函数(✅)(day2)、lambda表达式(方便、紧凑、简洁)(✅)
+*function.py*
 
 try except语句(✅)
 
