@@ -1,23 +1,28 @@
 dict        注意考虑操作的时间复杂度 O(f(n))
-#定义一个字典
-#添加一对key - value
-#更新某个key的value
-#获取某个存在key的value
-#鲁棒地获取某个key的value（考虑key不存在的情况）
-#去除某个key - value
-#获取key的列表
-#获取value的列表
-#遍历这个字典，打印key - value
-#用一个dict去更新另一个dict
-#合并两个dict成为一个新dict（假设没有重复的key）
-#判断某个key是不是在字典里          O(1)
+#定义一个字典: d = {}, d = {key1: value1, key2: value2}
+#添加一对key - value: d[key3] = value3
+#更新某个key的value: d[key1] = new_value 
+#获取某个存在key的value: d[key1]
+#鲁棒地获取某个key的value（考虑key不存在的情况）: d.get(key1, default_value)
+#去除某个key - value: value = d.pop(key)
+#获取key的列表: keys = list(d.keys())
+#获取value的列表: values = list(d.values())
+#遍历这个字典，打印key - value:  for k, v in d.items()
+#用一个dict去更新另一个dict: d1.update(d2)
+#合并两个dict成为一个新dict（假设没有重复的key: d3 = {**d1, **d2}
+#判断某个key是不是在字典里  O(1): key in d
 
-#从列表转化为字典
-#用dict comprehension生成字典
+#从列表转化为字典: d = dict(zip(keys, values)); dict([(k1, v1), (k2, v2)])
+#注意list(d)是key的列表，不包括value
+#用dict comprehension生成字典: d = {k: f(k) for k in ...}
 
 Counter
 from collections import Counter     #如何import Counter
-#初始化Counter
-#更新Counter，增加以及删减
-#获取数量最多的元素
-#根据元素的数量对元素由小到大排序
+#初始化Counter: c = Counter([1, 2, 2, 3, 3, 3])
+#更新Counter，增加以及删减: c.update([1, 2, 2, 3, 3, 3]), c.subtract([1, 2, 2, 3, 3, 3])
+#获取数量最多的元素: c.most_common(1)
+#根据元素的数量对元素由小到大排序: 可以用most_common()，也可以用sorted(c.elements())
+
+defaultdict
+from collections import defaultdict
+defaultdict(int)是一个dict，当key不存在时，返回一个默认值

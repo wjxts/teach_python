@@ -1,0 +1,6 @@
+import heapq 
+
+heapq.heapify(q) # 建堆 O(n) 
+heapq.heappush(q, ele) # 入堆 O(logn)
+heapq.heappop(q) # 出堆 O(logn)
+

@@ -1,0 +1,3 @@
+from collections import deque 
+# 右边进 q.append(), 左边进 q.appendleft()
+# 右边出 q.pop(), 左边出 q.popleft()

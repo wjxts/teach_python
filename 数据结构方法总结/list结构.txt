@@ -8,6 +8,7 @@ c =[“hello”, ”world”]
 修改列表元素:
 b[0] = 5,  O(1)
 b.append(10),    O(1)
+b.extend(list)
 
 删除一个元素:
 v = b.pop(),     O(1)
