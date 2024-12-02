@@ -49,8 +49,8 @@ dataclass类: 当使用类来保存数据的时候，可以使用这个类
 先从一些轻松的开始 
 
 命名系统: 大/小写下划线 大/小驼峰 在Python的默认规范(✅)
-* 大写下划线: 常量
-* 小写下划线: 变量、函数名、模块名、成员变量、成员函数
+* 大写下划线: 常量  MAX_SIZE
+* 小写下划线: 变量、函数名、模块名、成员变量、成员函数 cur_size
 
 decorator (是否带参数)可以装饰函数、类、类的成员函数  系统自带decorator(property, classmethod, staticmethod)(✅)
 例子: 计时、register(✅)
