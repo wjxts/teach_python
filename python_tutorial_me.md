@@ -85,7 +85,7 @@ iterable & iterator / generator(yield关键字) / for loop(✅)
 * 数据并行处理 apply_async(✅) 
 * 与函数式结合 (list comprehension的并行版) imap (✅)(day7, 2h) 
 
-note: 再补充一下Process, map, apply (windows运行有bug, 解决了)
+note: 再补充一下Process, map, apply (windows运行有bug, 解决了, 需要放在__main__中)
 * map, imap, map_async (✅)
 * apply, apply_async  (加async的是不block主程序的的, 不加是阻塞的,pool.close()+pool.join()可以等待async的任务运行完) (✅)
 * p = mp.Process(target=task, args=iterable) iterable一般就是tuple (✅)
