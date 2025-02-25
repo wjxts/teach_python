@@ -50,8 +50,8 @@ def parallel_map(N):
         # for s in r.get():
         #     pass
         print("end")
-        pool.close()
-        pool.join()
+        # pool.close()
+        # pool.join()
     print("final")
     #time.sleep(2)
     return r
